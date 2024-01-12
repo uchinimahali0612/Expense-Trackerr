@@ -1,0 +1,89 @@
+
+body {
+    text-align: center;
+    font-family: Century Gothic;
+}
+
+div#leftside {
+    display: inline-block;
+    width: 50%;
+    height: 41rem;
+    float: left;
+    text-align: center;
+}
+
+#expensetracker {
+    margin-left: 274px;
+    font-size: 20px;
+    display: flex;
+}
+
+div#history {
+    margin-left: 10px;
+}
+
+#income {
+    padding-right: 20px;
+}
+
+#historyBox {
+    border: 1px solid gray;
+    width: 54%;
+    height: 95px;
+    margin-left: 183px;
+    overflow: auto;
+}
+
+div#delete {
+    margin-top: 19px;
+}
+
+button#show {
+    padding: 6px 12px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+button#none {
+    padding: 6px 12px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+div#deleteHistory {
+    margin-top: 11px;
+    font-size: 20px;
+}
+
+div#rightside {
+    width: 49%;
+    display: inline-block;
+    float: left;
+
+}
+
+.text {
+    /* width: 99%; */
+    margin-bottom: 35px;
+}
+
+input#text-details {
+    width: 42%;
+    height: 40px;
+}
+
+input#amount-sign {
+    width: 42%;
+    height: 40px;
+}
+
+#submit {
+    background-color: lightblue;
+    padding: 25px;
+    margin-top: 14px;
+    width: 33%;
+    border: 1px solid lightyellow;
+    font-family: Century Gothic;
+    font-weight: 700;
+    margin-top: 58px;
+}

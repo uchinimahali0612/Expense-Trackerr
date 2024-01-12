@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f15ac8f491.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="expense.css">
+
+    <title>Transaction</title>
+</head>
+
+
+<body>
+    <h1>Expense Tracker</h1>
+    <div id="leftside">
+        <div id="tracker">
+
+            <p><b>My balance</b></p>
+            <h1>&#8377;<span id="balance">0</span></h1>
+        </div>
+        <div id="expensetracker">
+            <div id="income">
+                <p><b>Income</b></p>
+                <p>&#8377;<span id="incometracker">0</span></p>
+            </div>
+
+            <div id="expense">
+                <p><b>Expense</b></p>
+                <p>&#8377;<span id="trackerexpense">0</span></p>
+            </div>
+
+        </div>
+
+        <div id="history">
+            <h1>History</h1>
+            <div id="historyBox">
+                <!-- <div>
+           
+
+        </div>  -->
+
+            </div>
+            <div id="delete">
+                <button id="show" onclick="showHistory()"><i class="fa-solid fa-eye"></i></button>&nbsp; &nbsp;
+                &nbsp;<button id="none" onclick="deleteHistory()"><i class="fa fa-trash-o"
+                        aria-hidden="true"></i></button>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+    <div id="rightside">
+        <div id="transaction">
+            <h3>Add new transaction</h3>
+            <div class="text">
+                <input type="text" name="" id="text-details" placeholder="Enter Text..">
+
+            </div>
+            <div id="amount">
+                <h3>Amount</h3>
+                <div>
+                    <p>(negative-expense , positive-income)</p>
+
+                </div>
+                <input type="text" name="" id="amount-sign" placeholder="Enter Amount..">
+
+            </div>
+
+            <div>
+                <button id="submit" onclick="addTransaction()">Add Transcation</button>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <script src="transaction.js"></script>
+
+
+</body>
+
+</html>
